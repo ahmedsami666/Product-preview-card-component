@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.main {
+    margin: 10rem 25rem
+}
+.product {
+    max-height: 24rem;
+    float: left;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.product-details { 
+    height: 20rem;
+    background-color: white;
+    padding: 2rem;
+    padding-left: 18rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+}
+h1  {
+    font-family: 'Fraunces', serif;
+    line-height: 2rem;
+    color: hsl(212, 21%, 14%);
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+.price1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+.price2 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 0.75rem;
+}
+button {
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+button:hover {
+    cursor: pointer;
+    background-color: hsl(159, 36%, 25%);
+}
+
+@media (max-width:375px) {
+    body {
+        text-align: center;
+    }
+    .main {
+        margin: 0;
+    }
+    .product {
+        float: unset;
+        max-width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .product-details{
+        padding: 1.5rem;
+        text-align: left;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+    button {
+        width: 20rem;
+    }
+}
